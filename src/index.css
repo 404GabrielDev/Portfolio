@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.icon {
+  max-width: 30px;
+  cursor: pointer;
+}
+
+/*ESTILIZANDO ICONS*/
+
+.stack-icon {
+  font-size: 3rem;
+}
+
+#iconHTML {
+  color: #f70;
+}
+
+#iconCSS {
+  color: blue;
+}
+
+#iconJavaScript {
+  color: yellow;
+}
+
+#iconReact {
+  color: rgb(1, 137, 255);
+}
+
+#iconVite {
+  color: #646cff;
+}
+
+#iconNode {
+  color: rgb(0, 205, 0);
+}
+
+#iconMongodb {
+  color: #4db33d;
+}
+/*----------------------------------*/
+
+/*IMAGENS DO PROJETO CSS GLOBAL*/
+
+.iconProject {
+  height: 200px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #646cff;
+}
+
+@media (min-width: 1024px)  {
+  .iconProject {
+    height: 300px;
+  }
+}
