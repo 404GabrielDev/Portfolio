@@ -29,15 +29,16 @@ const Portfolio = () => {
               para verificação. Desenvolvido com lógica própria para segurança
               total.
             </p>
-            <button id="button-rep">
-              {" "}
-              <a
-                href="https://github.com/404GabrielDev/MERN-STACK-Authentication"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                📂 Repositório
-              </a>
+            <button
+              id="button-rep"
+              onClick={() =>
+                window.open(
+                  "https://github.com/404GabrielDev/MERN-STACK-Authentication",
+                  "_blank"
+                )
+              }
+            >
+              📂 Repositório
             </button>
           </div>
         </div>
@@ -63,14 +64,16 @@ const Portfolio = () => {
               sistema completo de autenticação e gerenciamento de usuários.
               Desenvolvido com foco em funcionalidade e experiência do usuário.
             </p>
-            <button>
-              <a
-                href="https://github.com/404GabrielDev/Job-Portal"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                📂 Repositório
-              </a>
+            <button
+              id="button-rep"
+              onClick={() =>
+                window.open(
+                  "https://github.com/404GabrielDev/Job-Portal",
+                  "_blank"
+                )
+              }
+            >
+              📂 Repositório
             </button>
           </div>
         </div>
@@ -95,14 +98,16 @@ const Portfolio = () => {
               Possui um formulário para envio de e-mails, permitindo que
               usuários entrem em contato facilmente.
             </p>
-            <button>
-              <a
-                href="https://github.com/404GabrielDev/GYM-Site"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                📂 Repositório
-              </a>
+            <button
+              id="button-rep"
+              onClick={() =>
+                window.open(
+                  "https://github.com/404GabrielDev/GYM-Site",
+                  "_blank"
+                )
+              }
+            >
+              📂 Repositório
             </button>
           </div>
         </div>
@@ -127,14 +132,16 @@ const Portfolio = () => {
               slider interativo (Swiper) para exibição de produtos. Foco na
               estética e experiência do usuário.
             </p>
-            <button>
-              <a
-                href="https://github.com/404GabrielDev/web-site-breakfast"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                📂 Repositório
-              </a>
+            <button
+              id="button-rep"
+              onClick={() =>
+                window.open(
+                  "https://github.com/404GabrielDev/web-site-breakfast",
+                  "_blank"
+                )
+              }
+            >
+              📂 Repositório
             </button>
           </div>
         </div>

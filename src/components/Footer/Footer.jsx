@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import "./Footer.css";
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -11,7 +12,17 @@ const Footer = () => {
             <img src="/logotipo.png" alt="logotipo" />
           </div>
 
-          <button>Tel. 99 99999-9999</button>
+          <button
+            id="btn-whatsapp"
+            onClick={() =>
+              window.open(
+                "https://wa.me/5561986641977?text=Desenvolvedor%20Gabriel",
+                "_blank"
+              )
+            }
+          > 
+            Whatsapp <FaWhatsapp id="icon-whatsapp" size={25} />
+          </button>
         </div>
 
         <div className="container-linksFooter" data-aos="zoom-in">
@@ -25,11 +36,6 @@ const Footer = () => {
             <li>
               <Link to="portfolio" smooth={true} duration={700}>
                 Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" smooth={true} duration={700}>
-                Contato
               </Link>
             </li>
           </div>
@@ -57,7 +63,12 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-section4" data-aos="zoom-in" data-aos-offset="50" data-aos-duration='1500'>
+      <div
+        className="footer-section4"
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-duration="1500"
+      >
         <p>
           © 2025 | Portfolio - Desenvolvido por<span>João Gabriel</span>
         </p>
