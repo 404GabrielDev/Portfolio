@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import "./Footer.css";
 import React from "react";
 
@@ -15,24 +16,52 @@ const Footer = () => {
           <button>Contato</button>
         </div>
 
+        <div className="container-linksFooter">
+          <p>Menu</p>
+          <div className="menu-footer">
+            <li>
+              <Link to="aboutme" smooth={true} duration={700}>
+                Sobre Mim
+              </Link>
+            </li>
+            <li>
+              <Link to="portfolio" smooth={true} duration={700}>
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" smooth={true} duration={700}>
+                Contato
+              </Link>
+            </li>
+          </div>
+        </div>
+
         <div className="footer-section3">
           <p>Redes Sociais</p>
 
           <div className="container-imgsFooter">
-            <img id="icon-redesSociais" src="/github.png" alt="icon-youtube" />
-            <img
-              id="icon-redesSociais"
-              src="/linkedin.png"
-              alt="icon-instagram"
-            />
+            <a
+              href="https://github.com/404GabrielDev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img id="icon-redesSociais" src="/github.png" alt="GitHub" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gabriel-santos-0659702b3/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img id="icon-redesSociais" src="/linkedin.png" alt="LinkedIn" />
+            </a>
           </div>
         </div>
       </div>
 
       <div className="footer-section4">
         <p>
-          © 2025 | Portfolio - 
-          <span>João Gabriel</span>
+          © 2025 | Portfolio - Desenvolvido por<span>João Gabriel</span>
         </p>
       </div>
     </footer>

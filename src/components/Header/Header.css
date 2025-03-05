@@ -67,6 +67,20 @@ header {
     gap: 2rem;
 }
 
+.container-typeAnimation {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-typeAnimation p {
+    width: 300px;
+    text-align: center;
+}
+
 .container-imgProfile {
     display: flex;
     align-items: center;

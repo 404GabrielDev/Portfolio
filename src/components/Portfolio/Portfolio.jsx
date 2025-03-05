@@ -4,7 +4,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className="portfolio" id="portfolio">
       <div className="titlePortifolio">
         <h1>Portfolio</h1>
       </div>
@@ -25,7 +25,7 @@ const Portfolio = () => {
               para verificação. Desenvolvido com lógica própria para segurança
               total.
             </p>
-            <button>📂 Repositório</button>
+            <button id="button-rep">📂 Repositório</button>
           </div>
         </div>
       </div>

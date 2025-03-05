@@ -21,20 +21,28 @@ const Page = () => {
   return (
     <main>
       <section className="container-Skills">
-        <div className="container-descriptionSkills">
-          <p>Skills</p>
-          <p id="descriptionBestProjects">
-            Aqui estão os meus 4 melhores projetos, destacando minhas
-            habilidades em frontend e fullstack. confira clicando aqui
-          </p>
-          <div className="button-projects">
-            <SlArrowRightCircle />
-            <button> Projetos </button>
-            <SlArrowLeftCircle />
+        <section className="container-aboutMe">
+          <div className="containerApresentation-about" id="aboutme">
+            <h1>Sobre Mim!</h1>
+            <p>
+              Transformo ideias em código, criando aplicações fluidas e bem
+              estruturadas. Já desenvolvi desde sistemas de autenticação até um
+              portal de empregos, sempre buscando melhorar a experiência do
+              usuário e otimizar o código. Estou sempre aprendendo e aprimorando
+              meus projetos.
+            </p>
           </div>
-        </div>
 
-        <section>
+          <div className="container-imgAbout">
+            <img src="bg-about.png" alt="icon-developer" />
+          </div>
+        </section>
+
+        <section className="container-skillsBest-Projects">
+          <div id="title-skillsFullstack">
+            <p>Skills</p>
+          </div>
+
           <div className="cardSkills">
             <p>Frontend</p>
             <div className="container-iconSkills">
@@ -53,6 +61,28 @@ const Page = () => {
               <DiMongodb id="iconMongodb" />
               <DiReact id="iconReact" />
               <AiOutlineGithub />
+            </div>
+          </div>
+
+          <div className="container-descriptionSkills">
+            <p>Projetos</p>
+            <p id="descriptionBestProjects">
+              Aqui estão os meus 4 melhores projetos, destacando minhas
+              habilidades em frontend e fullstack. confira clicando aqui
+            </p>
+            <div className="button-projects">
+              <SlArrowRightCircle className="icons-arrows" />
+              <button>
+                {" "}
+                <a
+                  href="https://github.com/404GabrielDev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img id="icon-redesSociais" src="/github.png" alt="GitHub" />
+                </a>{" "}
+              </button>
+              <SlArrowLeftCircle className="icons-arrows" />
             </div>
           </div>
         </section>

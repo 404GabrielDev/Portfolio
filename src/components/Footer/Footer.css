@@ -3,6 +3,8 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 1rem 5rem;
+    margin-top: 3rem;
     font-family: "Signika", sans-serif;
     
 }
@@ -11,7 +13,7 @@ footer {
 .footerAll-section {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    align-items: center;
 }
 
 #icon-redesSociais {
@@ -33,9 +35,10 @@ footer {
 
 .btn-tels button {
     background-color: #000;
+    border: none;
+    border: 1px solid #393db0;
     color: #fff;
-    border: 1px solid #fff;
-    padding: 1rem;
+    height: 3rem;
     border-radius: 0.5rem;
     cursor: pointer;
     width: 100%;
@@ -65,9 +68,49 @@ footer {
     color: #fff;
 }
 
+.container-linksFooter {
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+.container-linksFooter p {
+    font-size: 1.5rem;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+
+.container-linksFooter li {
+    list-style: none;
+    padding: .5rem;
+    border: 1px solid #393db0;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: scale 0.5s ease, color 0.5s ease, background-color 0.5s ease;
+}
+
+.container-linksFooter li:hover {
+    scale: 1.1;
+    background-color: #f70;
+    color: #000;
+}
+
 .container-imgsFooter {
     display: flex;
     gap: 1rem;
+}
+
+.container-imgsFooter a {
+    transition: scale 0.5s ease;
+}
+.container-imgsFooter a:hover {
+    scale: 1.2;
 }
 
 /*-----------------------------------*/

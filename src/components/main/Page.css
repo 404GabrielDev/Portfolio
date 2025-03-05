@@ -1,14 +1,60 @@
 main {
   color: #fff;
+  margin-top: 3rem;
+  background-image: url("/bgBlack-about.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container-aboutMe {
+  border: 2px solid #4a0093;
+  box-shadow: 2px 2px 5px #f70;
+
+  padding: 2rem 0rem;
+}
+
+.containerApresentation-about {
+  text-align: center;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container-imgAbout {
+  text-align: center;
+}
+
+.container-imgAbout img {
+  border-radius: 0.5rem;
+  max-width: 300px;
+}
+
+.container-skillsBest-Projects {
+  backdrop-filter: blur(3px);
+}
+
+#title-skillsFullstack {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title-skillsFullstack p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #008e93;
 }
 
 .container-Skills {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-image: url('/wallpaperVer.jpg');
-  background-position: center;
-  background-size: cover;
+  backdrop-filter: blur(5px);
 }
 
 .container-descriptionSkills {
@@ -18,9 +64,9 @@ main {
   padding: 0.5rem;
   align-items: center;
   font-size: 1.2rem;
-  margin-top: 5rem;
-  border: .5px solid #0088ba;
-  border-radius: .5rem;
+  margin-top: 3rem;
+  border: 0.5px solid #0088ba;
+  border-radius: 0.5rem;
 }
 
 .container-descriptionSkills p {
@@ -37,14 +83,17 @@ main {
   cursor: pointer;
 }
 
-
-
 .container-descriptionSkills button {
+  background-color: #000;
   border: none;
-  padding: .5rem;
-  border-radius: .5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   border: 2px solid #0088ba;
   transition: background-color 0.5s ease, color 0.5s ease, scale 0.5s ease;
+}
+
+.icons-arrows {
+  font-size: 1.5rem;
 }
 
 .container-descriptionSkills button:hover {
@@ -57,11 +106,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
   justify-content: center;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.5rem;
- 
 }
 
 .container-iconSkills {
@@ -69,16 +117,16 @@ main {
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  padding: .5rem;
+  padding: 0.5rem;
   border-bottom: 2px solid #4a0093;
 }
 
 .container-iconSkillsBack {
-    display: flex;
+  display: flex;
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  padding: .5rem;
+  padding: 0.5rem;
   border-bottom: 2px solid #0088ba;
 }
 
@@ -97,11 +145,29 @@ main {
   }
 
   .button-projects button {
-    width: 12rem;
+    width: 6rem;
     height: 3rem;
   }
 
   .cardSkills {
     font-size: 2.5rem;
+  }
+
+  .containerApresentation-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .containerApresentation-about p {
+    width: 500px;
+    border: 2px solid #0088ba;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .icons-arrows {
+    font-size: 2rem;
   }
 }

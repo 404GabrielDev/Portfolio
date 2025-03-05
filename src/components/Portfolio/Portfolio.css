@@ -1,3 +1,8 @@
+.portfolio {
+  background-image: url('/wallpaperProject.jpg');
+}
+
+
 .titlePortifolio {
     color: #fff;
     text-align: center;
@@ -6,6 +11,7 @@
     align-items: center;
     margin: 2rem 0rem;
     font-size: 1.3rem;
+    padding: 1rem;
 }
 
 
@@ -103,6 +109,8 @@
     padding: 2rem;
     width: 70%;
     font-size: 1.5rem;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
 
   .container-imgProject {

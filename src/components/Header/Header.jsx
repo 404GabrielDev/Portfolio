@@ -10,6 +10,8 @@ import {
   DiMongodb,
 } from "react-icons/di";
 import { SiVite } from "react-icons/si";
+import { Link } from "react-scroll";
+
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -44,31 +46,55 @@ const Header = () => {
           />
         </div>
         <ul className="nav-burger">
-          <li>Sobre Mim</li>
-          <li>Portfolio</li>
-          <li>Contato</li>
+          <li>
+            <Link to="aboutme" smooth={true} duration={700}>
+              Sobre Mim
+            </Link>
+          </li>
+          <li>
+            <Link to="portfolio" smooth={true} duration={700}>
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={700}>
+              Contato
+            </Link>
+          </li>
         </ul>
       </div>
 
       <div className="navbar-desktop">
         <p>Gabriel</p>
         <ul>
-          <li>Sobre Mim</li>
-          <li>Portfolio</li>
+          <li>
+            <Link to="aboutme" smooth={true} duration={700}>
+              Sobre Mim
+            </Link>
+          </li>
+          <li>
+            <Link to="portfolio" smooth={true} duration={700}>
+              Portfolio
+            </Link>
+          </li>
         </ul>
 
-        <button>Contato</button>
+        <button>
+          <Link to="contact" smooth={true} duration={700}>
+            Contato
+          </Link>
+        </button>
       </div>
 
       <section className="apresentation">
         <div className="container-typeAnimation">
           <TypeAnimation
             sequence={[
-              "Eu sou Mr",
+              "Eu sou Gabriel",
               2000,
               "",
               1000, // Apaga a frase antes de começar a próxima
-              "Desenvolvedor FullStack",
+              "Desenvolvedor Full Stack ",
               2000,
               "",
               1000,
@@ -80,6 +106,7 @@ const Header = () => {
             wrapper="span"
             speed={50} // Velocidade de digitação
             repeat={Infinity} // Repetição infinita
+            style={{ fontSize: "1.5rem" }}
           />
 
           <p>
