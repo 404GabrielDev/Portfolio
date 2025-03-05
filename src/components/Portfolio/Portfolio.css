@@ -1,5 +1,6 @@
 .portfolio {
   background-image: url('/wallpaperProject.jpg');
+  font-family: 'Signika', sans-serif;
 }
 
 
@@ -9,11 +10,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0rem;
     font-size: 1.3rem;
-    padding: 1rem;
+    padding: 1rem 0rem;
 }
-
 
 .containerAll-projects {
     margin-top: 4rem;

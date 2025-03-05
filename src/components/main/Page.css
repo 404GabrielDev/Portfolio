@@ -1,15 +1,16 @@
 main {
   color: #fff;
-  margin-top: 3rem;
   background-image: url("/bgBlack-about.jpg");
   background-position: center;
   background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 5rem 0rem;
+  box-shadow: 5px 0px 15px #0088ba;
 }
 
 .container-aboutMe {
   border: 2px solid #4a0093;
   box-shadow: 2px 2px 5px #f70;
-
   padding: 2rem 0rem;
 }
 
@@ -23,6 +24,9 @@ main {
 
 .container-imgAbout {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-imgAbout img {

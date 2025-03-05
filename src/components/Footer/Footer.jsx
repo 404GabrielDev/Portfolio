@@ -6,17 +6,15 @@ const Footer = () => {
   return (
     <footer className="container-footer">
       <div className="footerAll-section">
-        <div className="btn-tels">
+        <div data-aos="fade-right" className="btn-tels">
           <div className="container-imgLogotipo">
             <img src="/logotipo.png" alt="logotipo" />
           </div>
 
           <button>Tel. 99 99999-9999</button>
-          <button>Tel. 99 99999-9999</button>
-          <button>Contato</button>
         </div>
 
-        <div className="container-linksFooter">
+        <div className="container-linksFooter" data-aos="zoom-in">
           <p>Menu</p>
           <div className="menu-footer">
             <li>
@@ -37,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="footer-section3">
+        <div className="footer-section3" data-aos="fade-left">
           <p>Redes Sociais</p>
 
           <div className="container-imgsFooter">
@@ -59,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-section4">
+      <div className="footer-section4" data-aos="zoom-in" data-aos-offset="50" data-aos-duration='1500'>
         <p>
           © 2025 | Portfolio - Desenvolvido por<span>João Gabriel</span>
         </p>

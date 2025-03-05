@@ -9,7 +9,11 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
       </div>
 
-      <div className="containerAll-projects">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        className="containerAll-projects"
+      >
         <div className="description-project">
           <h1>Projeto 1</h1>
         </div>
@@ -30,7 +34,11 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="containerAll-projects2 invert">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        className="containerAll-projects2 invert"
+      >
         <div className="description-project">
           <h1>Projeto 2</h1>
         </div>
@@ -51,7 +59,11 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="containerAll-projects3">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        className="containerAll-projects3"
+      >
         <div className="description-project">
           <h1>Projeto 3</h1>
         </div>
@@ -71,7 +83,11 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="containerAll-projects4 invert">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        className="containerAll-projects4 invert"
+      >
         <div className="description-project">
           <h1>Projeto 4</h1>
         </div>

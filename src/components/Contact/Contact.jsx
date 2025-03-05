@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <>
       {/*SECTION PRA ENVIAR EMAIL*/}
-      <section className="container-sectionForm" id="contact">
+      <section className="container-sectionForm" data-aos="zoom-in" data-aos-duration='1500' id="contact">
         <p>
           <h2 className="section__title">Me contate</h2>
         </p>

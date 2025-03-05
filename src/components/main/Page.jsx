@@ -22,7 +22,11 @@ const Page = () => {
     <main>
       <section className="container-Skills">
         <section className="container-aboutMe">
-          <div className="containerApresentation-about" id="aboutme">
+          <div
+            className="containerApresentation-about"
+            data-aos="zoom-in"
+            id="aboutme"
+          >
             <h1>Sobre Mim!</h1>
             <p>
               Transformo ideias em código, criando aplicações fluidas e bem
@@ -33,17 +37,17 @@ const Page = () => {
             </p>
           </div>
 
-          <div className="container-imgAbout">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="container-imgAbout">
             <img src="bg-about.png" alt="icon-developer" />
           </div>
         </section>
 
         <section className="container-skillsBest-Projects">
-          <div id="title-skillsFullstack">
+          <div data-aos="zoom-in" data-aos-duration="1500" id="title-skillsFullstack">
             <p>Skills</p>
           </div>
 
-          <div className="cardSkills">
+          <div data-aos="fade-up-right" className="cardSkills">
             <p>Frontend</p>
             <div className="container-iconSkills">
               <DiHtml5 id="iconHTML" />
@@ -54,7 +58,7 @@ const Page = () => {
             </div>
           </div>
 
-          <div className="cardSkills">
+          <div data-aos="fade-up-left" className="cardSkills">
             <p>Backend</p>
             <div className="container-iconSkillsBack">
               <DiNodejsSmall id="iconNode" />
@@ -64,7 +68,7 @@ const Page = () => {
             </div>
           </div>
 
-          <div className="container-descriptionSkills">
+          <div data-aos="zoom-in-up" data-aos-duration='1500' className="container-descriptionSkills">
             <p>Projetos</p>
             <p id="descriptionBestProjects">
               Aqui estão os meus 4 melhores projetos, destacando minhas

@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="navbar-mobile">
+      <div className="navbar-mobile" data-aos="fade-down">
         <div>Gabriel</div>
 
         <div>
@@ -64,8 +64,8 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className="navbar-desktop">
-        <p>Gabriel</p>
+      <div className="navbar-desktop" data-aos="fade-down">
+        <p>Desenvolvedor Gabriel</p>
         <ul>
           <li>
             <Link to="aboutme" smooth={true} duration={700}>
@@ -87,7 +87,7 @@ const Header = () => {
       </div>
 
       <section className="apresentation">
-        <div className="container-typeAnimation">
+        <div className="container-typeAnimation" data-aos="fade-right">
           <TypeAnimation
             sequence={[
               "Eu sou Gabriel",
@@ -119,12 +119,20 @@ const Header = () => {
           </p>*/}
         </div>
 
-        <section className="container-imgProfile">
+        <section
+          className="container-imgProfile"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <img src="/profileTest.jpeg" alt="profile" />
         </section>
       </section>
 
-      <section className="container-myStack">
+      <section
+        className="container-myStack"
+        data-aos="zoom-in"
+        data-aos-duration="2500"
+      >
         <p>Minha Stack</p>
         <div className="iconsStack">
           <DiHtml5 id="iconHTML" />
