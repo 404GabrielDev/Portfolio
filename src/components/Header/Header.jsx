@@ -90,7 +90,7 @@ const Header = () => {
         <div className="container-typeAnimation" data-aos="fade-right">
           <TypeAnimation
             sequence={[
-              "Eu sou Gabriel",
+              "Gabriel",
               2000,
               "",
               1000, // Apaga a frase antes de começar a próxima
@@ -106,7 +106,7 @@ const Header = () => {
             wrapper="span"
             speed={50} // Velocidade de digitação
             repeat={Infinity} // Repetição infinita
-            style={{ fontSize: "1.5rem" }}
+            className="type-animationText"
           />
 
           <p>
@@ -124,7 +124,15 @@ const Header = () => {
           data-aos="fade-left"
           data-aos-duration="2000"
         >
-          <img src="/profileTest.jpeg" alt="profile" />
+          
+        </section>
+
+        <section
+          className="container-imgProfile2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
+          
         </section>
       </section>
 

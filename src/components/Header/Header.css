@@ -1,10 +1,8 @@
 header {
     width: 100%;
-    height: 100vh;
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     background-image: url('/backgroundTest.jpg');
     background-position: center;
     background-size: cover;
@@ -59,13 +57,13 @@ header {
 }
 
 /*APRESENTAÇÃO INICIAL*/
-
 .apresentation {
     border-radius: 0.5rem;
     padding: .5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    
 }
 
 .container-typeAnimation {
@@ -77,20 +75,56 @@ header {
     justify-content: center;
 }
 
+.type-animationText {
+    font-size: 1.5rem;
+    color: #ff0000;
+}
+
 .container-typeAnimation p {
     width: 300px;
     text-align: center;
 }
 
+
+/*IMAGEM PERFIL MOBILE*/
 .container-imgProfile {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url('/perfilMobile.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    border: 2px solid #01ccff;
 }
 
 .container-imgProfile img {
-    max-width: 300px;
-    border-radius: 50%;
+    border-radius: 1rem;
+    max-height: 300px;
+    box-shadow: 0px 5px 20px #b0009c;
+}
+/*-------------------------------------*/
+
+/*IMAGEM PERFIL DESKTOP*/
+.container-imgProfile2 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+    background-image: url('/Perfill.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.container-imgProfile2 img {
+    border-radius: 1rem;
+    max-height: 300px;
     box-shadow: 0px 5px 20px #b0009c;
 }
 
@@ -156,8 +190,6 @@ header {
     font-size: 2.5rem;
 }
 
-
-
 /*DEIXANDO RESPONSIVO*/
 @media (min-width: 1024px) {
     /* Estilos para desktop */
@@ -177,6 +209,10 @@ header {
         display: flex;
     }
 
+    header {
+        height: 100vh;
+    }
+
     /*APRESENTAÇÃO*/
     .apresentation {
         display: flex;
@@ -186,10 +222,20 @@ header {
         height: 100%;
     }
 
+
+    /*DESATIVANDO PERFIL MOBILE*/
+    .container-imgProfile {
+        display: none;
+    }
+    /*ATIVANDO PERFIL DESKTOP*/
+    .container-imgProfile2 {
+        display: flex;
+    }
+
     .container-typeAnimation {
         border-bottom: 2px solid #3300ff;
         border-radius: .5rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -200,9 +246,14 @@ header {
         box-shadow: 5px 0px 10px #01ccff;
     }
 
+    .type-animationText {
+        font-size: 3rem;
+    }
+
     .container-typeAnimation p {
         padding: 1rem;
         text-align: center;
+        width: 70%;
     }
 
     .container-imgProfile {
@@ -213,7 +264,7 @@ header {
     /*ESTILIZANDO MYSTAK PRA DESKTOP*/
     .container-myStack {
         gap: 2rem;
-        padding: 1rem;
+        padding: 3rem;
     }
 
     .iconsStack {

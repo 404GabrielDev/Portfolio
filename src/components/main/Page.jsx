@@ -71,7 +71,7 @@ const Page = () => {
           <div data-aos="zoom-in-up" data-aos-duration='1500' className="container-descriptionSkills">
             <p>Projetos</p>
             <p id="descriptionBestProjects">
-              Aqui estão os meus 4 melhores projetos, destacando minhas
+              Aqui estão os meus melhores projetos, destacando minhas
               habilidades em frontend e fullstack. confira clicando aqui
             </p>
             <div className="button-projects">
