@@ -11,6 +11,8 @@ import {
 } from "react-icons/di";
 import { SiVite } from "react-icons/si";
 import { Link } from "react-scroll";
+import { MdClose } from "react-icons/md";
+import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -25,25 +27,15 @@ const Header = () => {
         <div>Gabriel</div>
 
         <div>
-          <img
-            style={{ filter: "invert(1)" }}
-            src="/burgerBar.png"
-            className="icon"
-            alt="menu-icon"
-            onClick={toggleMenu}
-          />
+          
+        <TiThMenu style={{fontSize:'25px'}} className="icon" onClick={toggleMenu} />
         </div>
       </div>
 
       <div className={`navbar-menuBurger ${openMenu ? "open" : ""}`}>
         <div className="container-iconClose">
           <p>Gabriel</p>
-          <img
-            onClick={toggleMenu}
-            src="/close.png"
-            alt="icon-close"
-            className="icon"
-          />
+          <MdClose style={{fontSize:'25px'}} className="icon" onClick={toggleMenu}/>
         </div>
         <ul className="nav-burger">
           <li>
