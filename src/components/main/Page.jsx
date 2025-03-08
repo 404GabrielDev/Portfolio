@@ -83,7 +83,7 @@ const Page = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img id="icon-redesSociais" src="/github.png" alt="GitHub" />
+                  <img id="icon-redesSociais" src="github.png" alt="GitHub" />
                 </a>{" "}
               </button>
               <SlArrowLeftCircle className="icons-arrows" />

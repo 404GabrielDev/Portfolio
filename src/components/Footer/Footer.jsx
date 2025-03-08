@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footerAll-section">
         <div data-aos="fade-right" className="btn-tels">
           <div className="container-imgLogotipo">
-            <img src="/logotipo.png" alt="logotipo" />
+            <img src="logotipo.png" alt="logotipo" />
           </div>
 
           <button
@@ -50,14 +50,14 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img id="icon-redesSociais" src="/github.png" alt="GitHub" />
+              <img id="icon-redesSociais" src="github.png" alt="GitHub" />
             </a>
             <a
               href="https://www.linkedin.com/in/gabriel-santos-0659702b3/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img id="icon-redesSociais" src="/linkedin.png" alt="LinkedIn" />
+              <img id="icon-redesSociais" src="linkedin.png" alt="LinkedIn" />
             </a>
           </div>
         </div>
