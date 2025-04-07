@@ -10,47 +10,12 @@ const Portfolio = () => {
       </div>
 
       <div
-        data-aos="fade-right"
-        data-aos-duration="1500"
-        className="containerAll-projects"
-      >
-        <div className="description-project">
-          <h1>Projeto 1</h1>
-        </div>
-
-        <div className="card-ContainerDesktop">
-          <div className="container-imgProject">
-            <img className="iconProject" src="screenshotProjects/projectAuth/projectHome.png" alt="projeto 1" />
-          </div>
-          <div className="button-repository">
-            <p>
-              Auth System 🔐 Sistema de autenticação completo com registro,
-              login e recuperação de senha. Usa OTP via e-mail com Nodemailer
-              para verificação. Desenvolvido com lógica própria para segurança
-              total.
-            </p>
-            <button
-              id="button-rep"
-              onClick={() =>
-                window.open(
-                  "https://github.com/404GabrielDev/MERN-STACK-Authentication",
-                  "_blank"
-                )
-              }
-            >
-              📂 Repositório
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
         data-aos="fade-left"
         data-aos-duration="1500"
         className="containerAll-projects2 invert"
       >
         <div className="description-project">
-          <h1>Projeto 2</h1>
+          <h1>Projeto 1</h1>
         </div>
 
         <div className="card-ContainerDesktop">
@@ -80,12 +45,79 @@ const Portfolio = () => {
       </div>
 
       <div
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        className="containerAll-projects2 invert"
+      >
+        <div className="description-project">
+          <h1>Projeto 2</h1>
+        </div>
+
+        <div className="card-ContainerDesktop">
+          <div className="container-imgProject">
+            <img className="iconProject" src="screenshotProjects/project-portalJob/JavaW.png" alt="projeto 2" />
+          </div>
+          <div className="button-repository">
+            <p>
+            Autenticação com JWT (Angular + Java) — Implementação do fluxo de login e proteção de rotas com JSON Web Token. Projeto voltado para o domínio do JWT na prática, com envio de credenciais via frontend Angular.
+            </p>
+            <button
+              id="button-rep"
+              onClick={() =>
+                window.open(
+                  "https://github.com/404GabrielDev/Spring-Security-Token",
+                  "_blank"
+                )
+              }
+            >
+              📂 Repositório
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        className="containerAll-projects"
+      >
+        <div className="description-project">
+          <h1>Projeto 3</h1>
+        </div>
+
+        <div className="card-ContainerDesktop">
+          <div className="container-imgProject">
+            <img className="iconProject" src="screenshotProjects/projectAuth/projectHome.png" alt="projeto 1" />
+          </div>
+          <div className="button-repository">
+            <p>
+              Auth System 🔐 Sistema de autenticação completo com registro,
+              login e recuperação de senha. Usa OTP via e-mail com Nodemailer
+              para verificação. Desenvolvido com lógica própria para segurança
+              total.
+            </p>
+            <button
+              id="button-rep"
+              onClick={() =>
+                window.open(
+                  "https://github.com/404GabrielDev/MERN-STACK-Authentication",
+                  "_blank"
+                )
+              }
+            >
+              📂 Repositório
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
         data-aos="fade-right"
         data-aos-duration="1500"
         className="containerAll-projects3"
       >
         <div className="description-project">
-          <h1>Projeto 3</h1>
+          <h1>Projeto 4</h1>
         </div>
 
         <div className="card-ContainerDesktop">
@@ -119,7 +151,7 @@ const Portfolio = () => {
         className="containerAll-projects4 invert"
       >
         <div className="description-project">
-          <h1>Projeto 4</h1>
+          <h1>Projeto 5</h1>
         </div>
 
         <div className="card-ContainerDesktop">
