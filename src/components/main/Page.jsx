@@ -2,20 +2,19 @@ import "./Page.css";
 
 import React from "react";
 import {
-  DiCss3,
-  DiHtml5,
   DiJavascript1,
   DiNodejsSmall,
   DiReact,
   DiMongodb,
 } from "react-icons/di";
-import { SiVite } from "react-icons/si";
+import { SiAngular, SiSpring, SiVite, SiMysql, SiPostgresql } from "react-icons/si";
 import {
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import { SlArrowLeftCircle, SlArrowRightCircle } from "react-icons/sl";
+import { FaJava } from "react-icons/fa6";
 
 const Page = () => {
   return (
@@ -37,22 +36,29 @@ const Page = () => {
             </p>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1500" className="container-imgAbout">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            className="container-imgAbout"
+          >
             <img src="bg-about.png" alt="icon-developer" />
           </div>
         </section>
 
         <section className="container-skillsBest-Projects">
-          <div data-aos="zoom-in" data-aos-duration="1500" id="title-skillsFullstack">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            id="title-skillsFullstack"
+          >
             <p>Skills</p>
           </div>
 
           <div data-aos="fade-up-right" className="cardSkills">
             <p>Frontend</p>
             <div className="container-iconSkills">
-              <DiHtml5 id="iconHTML" />
+              <SiAngular id="iconAngular" />
               <DiJavascript1 id="iconJavaScript" />
-              <DiCss3 id="iconCSS" />
               <DiReact id="iconReact" />
               <SiVite id="iconVite" />
             </div>
@@ -61,14 +67,20 @@ const Page = () => {
           <div data-aos="fade-up-left" className="cardSkills">
             <p>Backend</p>
             <div className="container-iconSkillsBack">
+              <FaJava id="iconJava" />
+              <SiSpring id="iconSpring" />
               <DiNodejsSmall id="iconNode" />
               <DiMongodb id="iconMongodb" />
-              <DiReact id="iconReact" />
-              <AiOutlineGithub />
+              <SiMysql id="iconMysql" />
+              <SiPostgresql id="iconPostgre" />
             </div>
           </div>
 
-          <div data-aos="zoom-in-up" data-aos-duration='1500' className="container-descriptionSkills">
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            className="container-descriptionSkills"
+          >
             <p>Projetos</p>
             <p id="descriptionBestProjects">
               Aqui estão os meus melhores projetos, destacando minhas

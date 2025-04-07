@@ -189,7 +189,18 @@ header {
 
 .iconsStack {
     font-size: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: .5rem;
 }
+
+.iconsStack > * {
+    flex: 1 1 20%; /* 5 por linha */
+    display: flex;
+    justify-content: center;
+  }
 
 /*DEIXANDO RESPONSIVO*/
 @media (min-width: 1024px) {
@@ -271,6 +282,8 @@ header {
     .iconsStack {
         font-size: 4rem;
         display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
         gap: 2rem;
     }
   }

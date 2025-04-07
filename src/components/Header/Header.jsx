@@ -9,7 +9,9 @@ import {
   DiReact,
   DiMongodb,
 } from "react-icons/di";
-import { SiVite } from "react-icons/si";
+import { FaJava } from "react-icons/fa6";
+import { SiVite, SiSpringboot, SiSpringsecurity, SiSpring, SiMysql, SiPostgresql } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { MdClose } from "react-icons/md";
 import { TiThMenu } from "react-icons/ti";
@@ -135,13 +137,16 @@ const Header = () => {
       >
         <p>Minha Stack</p>
         <div className="iconsStack">
-          <DiHtml5 id="iconHTML" />
-          <DiCss3 id="iconCSS" />
+          <FaJava id="iconJava" />
+          <SiSpring id="iconSpring" />
+          <FaAngular id="iconAngular" />
           <DiJavascript1 id="iconJavaScript" />
-          <DiReact id="iconReact" />
-          <SiVite id="iconVite" />
           <DiNodejsSmall id="iconNode" />
+          <DiReact id="iconReact" />
           <DiMongodb id="iconMongodb" />
+          <SiVite id="iconVite" />
+          <SiMysql id="iconMysql" />
+          <SiPostgresql id="iconPostgre" />
         </div>
       </section>
     </header>
