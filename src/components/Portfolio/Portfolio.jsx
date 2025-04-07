@@ -45,9 +45,9 @@ const Portfolio = () => {
       </div>
 
       <div
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-duration="1500"
-        className="containerAll-projects2 invert"
+        className="containerAll-projects"
       >
         <div className="description-project">
           <h1>Projeto 2</h1>
@@ -77,9 +77,9 @@ const Portfolio = () => {
       </div>
 
       <div
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-duration="1500"
-        className="containerAll-projects"
+        className="containerAll-projects invert"
       >
         <div className="description-project">
           <h1>Projeto 3</h1>
