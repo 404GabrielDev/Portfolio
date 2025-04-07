@@ -55,7 +55,7 @@ const Portfolio = () => {
 
         <div className="card-ContainerDesktop">
           <div className="container-imgProject">
-            <img className="iconProject" src="screenshotProjects/project-portalJob/JavaW.png" alt="projeto 2" />
+            <img className="iconProject" src="screenshotProjects/project-Java/JavaW.png" alt="projeto 2" />
           </div>
           <div className="button-repository">
             <p>
@@ -87,7 +87,7 @@ const Portfolio = () => {
 
         <div className="card-ContainerDesktop">
           <div className="container-imgProject">
-            <img className="iconProject" src="screenshotProjects/projectAuth/projectHome.png" alt="projeto 1" />
+            <img className="iconProject" src="screenshotProjects/projectAuth/projectHome.png" alt="projeto 3" />
           </div>
           <div className="button-repository">
             <p>
@@ -122,7 +122,7 @@ const Portfolio = () => {
 
         <div className="card-ContainerDesktop">
           <div className="container-imgProject">
-            <img className="iconProject" src="screenshotProjects/projectGym/desktop.png" alt="projeto 1" />
+            <img className="iconProject" src="screenshotProjects/projectGym/desktop.png" alt="projeto 4" />
           </div>
           <div className="button-repository">
             <p>
@@ -156,7 +156,7 @@ const Portfolio = () => {
 
         <div className="card-ContainerDesktop">
           <div className="container-imgProject">
-            <img className="iconProject" src="screenshotProjects/projectBreakfast/homeBreakfast.png" alt="projeto 1" />
+            <img className="iconProject" src="screenshotProjects/projectBreakfast/homeBreakfast.png" alt="projeto 5" />
           </div>
           <div className="button-repository">
             <p>
